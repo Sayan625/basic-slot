@@ -1,0 +1,41 @@
+{
+    "InitData": {
+        "id": "InitData",
+        "message": {
+            "GameData": {
+                "Reel": [["A", "B", "C"], ["A", "B", "C"], ["A", "B", "C"]],
+                "Lines": [[0, 0, 0,0,0]],
+                "Bets": [10, 20, 30, 40, 50,60],
+                "canSwitchLines": false,
+                "LinesCount": [10, 20, 30]
+            },
+            "PlayerData": {
+                "Name": "Player1",
+                "Balance": 100.0
+            },
+            "UIData": {
+                "Title": "Mock Slot Game"
+            }
+        }
+    },
+    "ResultData": {
+        "id": "ResultData",
+        "message": {
+            "GameData": {
+                "ResultReel": [["1", "4", "6","3","2"], ["1", "5", "7","8","9"], ["1", "5", "4", "10","11"]],
+                "linesToEmit": [0],
+                "symbolsToEmit": [["0,0", "1,0", "2,0","3,0","4,0"]],
+                "WinAmout": 50.0,
+                "freeSpins": 0,
+                "jackpot": 0,
+                "isBonus": false,
+                "BonusStopIndex": -1
+            },
+            "PlayerData": {
+                "Name": "Player1",
+                "Balance": 150.0,
+                "CurrentWinning": 50
+            }
+        }
+    }
+}
